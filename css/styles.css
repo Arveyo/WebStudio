@@ -1,0 +1,65 @@
+/* default setting */
+body ul,button,a{
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    padding: 0;
+}
+
+:root{
+    --mainfoot-color: #757575;
+    --webcolor: #2196F3;
+    --websize: 26px;
+    --studiocolor: #000;
+    --studiocolor2: #FFFFFF;
+    --backcolor: #2F303A;
+}
+/* header code */
+.web {
+    color: var(--webcolor);
+    font-size: var(--websize);
+}
+
+.studiob {
+    color: var(--studiocolor);
+    font-size: var(--websize);   
+}
+
+.studiow {
+    color: var(--studiocolor2);
+    font-size: var(--websize);
+}
+
+.nav {
+    color: var(--studiocolor);
+}
+
+.contact {
+    color: var(--mainfoot-color);
+}
+/* main code */
+h1 {
+    background-color:var(--backcolor);
+    color: var(--studiocolor2);
+}
+
+button {
+    background-color: var(--webcolor);
+    color: var(--studiocolor2);
+}
+
+.description {
+    color: var(--mainfoot-color);
+}
+
+.teamname {
+    color: var(--mainfoot-color);
+}
+/* footer code */
+footer {
+    background-color: var(--backcolor);
+}
+
+.address {
+    color: var(--studiocolor2);
+}
