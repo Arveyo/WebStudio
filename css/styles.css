@@ -14,19 +14,30 @@ body ul,button,a{
     --studiocolor2: #FFFFFF;
     --backcolor: #2F303A;
 }
+
+body {
+    font-family: "Roboto";
+    line-height: "1.14%";
+}
+
 /* header code */
-.web {
+.nav-web {
     color: var(--webcolor);
     font-size: var(--websize);
 }
 
-.studiob {
+.nav-studio {
     color: var(--studiocolor);
-    font-size: var(--websize);   
+    font-size: var(--websize);
 }
 
-.studiow {
-    color: var(--studiocolor2);
+.nav-portpholio {
+    color: var(--studiocolor);
+    font-size: var(--websize);
+}
+
+.nav-contacts {
+    color: var(--studiocolor);
     font-size: var(--websize);
 }
 
@@ -34,7 +45,7 @@ body ul,button,a{
     color: var(--studiocolor);
 }
 
-.contact {
+.nav-contact {
     color: var(--mainfoot-color);
 }
 /* main code */
@@ -48,11 +59,11 @@ button {
     color: var(--studiocolor2);
 }
 
-.description {
+.section2-description {
     color: var(--mainfoot-color);
 }
 
-.teamname {
+.section4-work {
     color: var(--mainfoot-color);
 }
 /* footer code */
@@ -60,6 +71,18 @@ footer {
     background-color: var(--backcolor);
 }
 
-.address {
+.footer-address {
     color: var(--studiocolor2);
+}
+
+.footer-contact {
+    color: var(--mainfoot-color)
+}
+
+.web {
+    color: var(--webcolor)
+}
+
+.studio {
+    color: var(--studiocolor);
 }
